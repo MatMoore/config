@@ -1,0 +1,17 @@
+# set the default size of the scrollback buffer (default default = 100 which is lame)
+defscrollback 1000
+
+# don't show a bunch of crap on startup
+startup_message off
+
+# disable "visual bell" for failed tab completions
+vbell off
+
+# default name for new windows
+shelltitle "bash"
+
+#screen -t irssi 0 irssi
+#screen -t bash 1
+
+hardstatus             alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
