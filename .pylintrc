@@ -166,7 +166,7 @@ good-names=i,j,k,ex,Run,_
 bad-names=foo,bar,baz,toto,tutu,tata,_
 
 # List of builtins function names that should not be used, separated by a comma
-bad-functions=map,filter,apply,input
+bad-functions=apply,input
 
 
 # checks for
