@@ -101,7 +101,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #ruby gem path
-export PATH=$PATH:/home/mat/.gem/ruby/1.8/bin
+export PATH=/home/mat/.cabal/bin:$PATH:/home/mat/.gem/ruby/1.8/bin
 export PATH=$PATH:/var/lib/gems/1.8/bin
 
 #Android SDK
