@@ -110,12 +110,13 @@ behave xterm
 
 set background=dark        " The Solarized dark theme ("light" works too")
 
+let g:solarized_termtrans=1
 if has("gui_running")
-  let g:solarized_contrast="high"
-  let g:solarized_bold=1
   if has("gui_gtk2")
+    let g:solarized_bold=1
     set guifont=Inconsolata\ 12
   elseif has("gui_win32")
+      let g:solarized_bold=1
     set guifont=Consolas:h12:cANSI
   endif
 endif
@@ -163,3 +164,7 @@ autocmd GUIEnter * set visualbell t_vb=
 set backspace=indent,eol,start
 
 set nrformats-=octal
+
+let g:airline_powerline_fonts=1
+set laststatus=2
+set ttimeoutlen=50
