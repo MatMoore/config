@@ -2,6 +2,8 @@ call pathogen#infect()
 
 set nocompatible " Turn off shitty Vi antifeatures
 
+filetype plugin on
+
 syntax on
 set number
 
@@ -87,8 +89,6 @@ set listchars=tab:·\ ,trail:$
 set guioptions+=LlRrb
 set guioptions-=LlRrb
 
-filetype plugin on
-
 "set wildmode=longest,list
 set wildmode=longest:list,full
 
@@ -168,3 +168,5 @@ set nrformats-=octal
 let g:airline_powerline_fonts=1
 set laststatus=2
 set ttimeoutlen=50
+
+let g:airline#extensions#csv#column_display= 'Name'
