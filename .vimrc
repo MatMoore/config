@@ -92,3 +92,8 @@ set mouse=a
 " http://vim.wikia.com/wiki/Disable_beeping
 set noerrorbells visualbell t_vb=
 autocmd GUIEnter * set visualbell t_vb=
+
+" backspace works like a fucking backspace
+set backspace=indent,eol,start
+
+set nrformats-=octal
