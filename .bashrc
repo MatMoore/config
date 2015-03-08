@@ -126,3 +126,6 @@ function pyshell() {
 alias kgs='javaws http://files.gokgs.com/javaBin/cgoban.jnlp'
 #alias info='info --vim-keys'
 alias cpunk='ssh mat@cyberpunk.me'
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

@@ -103,7 +103,7 @@ let g:syntastic_echo_current_error=1
 let g:syntastic_enable_balloons = 1
 let g:syntastic_enable_highlighting = 1
 let g:syntastic_mode_map = { 'mode': 'active'}
-"let g:syntastic_python_checker = 'pylint'
+let g:syntastic_python_checkers = ['flake8']
 "
 
 behave xterm
@@ -170,3 +170,4 @@ set laststatus=2
 set ttimeoutlen=50
 
 let g:airline#extensions#csv#column_display= 'Name'
+set guifont=Inconsolata\ for\ Powerline:h20
