@@ -101,31 +101,18 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #ruby gem path
-export PATH=/home/mat/.cabal/bin:$PATH:/home/mat/.gem/ruby/1.8/bin
+export PATH=~/.cabal/bin:$PATH:/home/mat/.gem/ruby/1.8/bin
 export PATH=$PATH:/var/lib/gems/1.8/bin
+export PATH=$PATH:~/sbt/bin/
+export PATH=$PATH:~/eclipse/
 
 #Android SDK
-export PATH=$PATH:/home/mat/android/tools:.
+export PATH=$PATH:~/android/tools:.
 
 #disable system beep
 xset -b
 
-alias bye="sudo echo 'bye bye!';sudo shutdown -P 0"
-
-alias python='pyshell'
-
-function pyshell() {
-	if [ $# -eq '0' ];
-	then
-		ipython;
-	else
-		env python $@;
-	fi
-}
-
 alias kgs='javaws http://files.gokgs.com/javaBin/cgoban.jnlp'
-#alias info='info --vim-keys'
-alias cpunk='ssh mat@cyberpunk.me'
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

@@ -114,9 +114,9 @@ let g:solarized_termtrans=1
 if has("gui_running")
   if has("gui_gtk2")
     let g:solarized_bold=1
-    set guifont=Inconsolata\ 12
+    set guifont=Inconsolata\ for\ Powerline:h20
   elseif has("gui_win32")
-      let g:solarized_bold=1
+    let g:solarized_bold=1
     set guifont=Consolas:h12:cANSI
   endif
 endif
@@ -139,11 +139,6 @@ set autoread
 " http://stackoverflow.com/questions/18158772/how-to-add-c11-support-to-syntastic-vim-plugin
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 "let g:syntastic_python_pylint_exe = '/usr/bin/pylint'
-
-let g:syntastic_python_pylint_exe = '/usr/local/bin/pylint'
-"let g:syntastic_python_pylint_options = '--msg-template="{path}:{line}: [{msg_id}] {msg}" -r n'
-"let g:syntastic_python_pylint_options = '--msg-template="{path}:{line}: [{msg_id}, {obj}] {msg}" -r n'
-"let g:syntastic_python_pylint_tail = '| sed -r "s/\x1B\[[0-9;]*[mGK]//g" | sed "s/, \]/\]/"'
 
 set paste
 
@@ -170,7 +165,7 @@ set laststatus=2
 set ttimeoutlen=50
 
 let g:airline#extensions#csv#column_display= 'Name'
-set guifont=Inconsolata\ for\ Powerline:h20
+"set guifont=Inconsolata\ for\ Powerline:h20
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
