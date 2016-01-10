@@ -138,7 +138,7 @@ set autoread
 " http://stackoverflow.com/questions/18158772/how-to-add-c11-support-to-syntastic-vim-plugin
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
 
-set paste
+"set paste
 
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
