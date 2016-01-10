@@ -172,3 +172,10 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 "au Syntax * RainbowParenthesesLoadSquare
 "au Syntax * RainbowParenthesesLoadBraces
+"
+
+" enable omnicomplete completion
+set omnifunc=syntaxcomplete#Complete
+
+" set supertab completion to be context aware
+let g:SuperTabDefaultCompletionType = "context"
