@@ -13,7 +13,6 @@ if has("multi_byte")
   endif
   set encoding=utf-8
   setglobal fileencoding=utf-8
-  "setglobal bomb
   set fileencodings=ucs-bom,utf-8,latin1
 endif
 
@@ -138,7 +137,6 @@ set autoread
 
 " http://stackoverflow.com/questions/18158772/how-to-add-c11-support-to-syntastic-vim-plugin
 let g:syntastic_cpp_compiler_options = ' -std=c++11'
-"let g:syntastic_python_pylint_exe = '/usr/bin/pylint'
 
 set paste
 
@@ -160,12 +158,15 @@ set backspace=indent,eol,start
 
 set nrformats-=octal
 
-let g:airline_powerline_fonts=1
 set laststatus=2
 set ttimeoutlen=50
 
-let g:airline#extensions#csv#column_display= 'Name'
+set guifont=Monaco:h16
+
+"Fancy status line... requires more fonts
 "set guifont=Inconsolata\ for\ Powerline:h20
+"let g:airline#extensions#csv#column_display= 'Name'
+"let g:airline_powerline_fonts=1
 
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
