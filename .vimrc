@@ -171,3 +171,8 @@ set ttimeoutlen=50
 
 let g:airline#extensions#csv#column_display= 'Name'
 set guifont=Inconsolata\ for\ Powerline:h20
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+"au Syntax * RainbowParenthesesLoadSquare
+"au Syntax * RainbowParenthesesLoadBraces
