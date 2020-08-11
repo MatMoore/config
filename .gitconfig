@@ -1,0 +1,36 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Mat Moore
+email = MatMoore@users.noreply.github.com
+[alias]
+	praise = blame
+	wtf = log --graph --oneline
+[branch]
+	autosetuprebase = always
+[push]
+	default = simple
+[rebase]
+	autosquash = true
+[core]
+	excludesfile = /Users/matmoore/.gitignore_global
+[commit]
+	verbose = true
+	template = /Users/matmoore/.gitmessage
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
