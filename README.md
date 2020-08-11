@@ -1,4 +1,4 @@
-# Config
+# Dotfiles
 
 This repo contains configuration files for my development environment (anything that isn't project specific).
 
