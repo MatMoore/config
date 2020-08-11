@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+cmd+right",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "shift+cmd+left",
+        "command": "workbench.action.terminal.focusPrevious"
+    }
+]
