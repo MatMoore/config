@@ -1,6 +1,6 @@
 # Visual Studio Code
 
-![When people ask me to recommend a text editor: Vi..... sual studio code](!vscode.png)
+![When people ask me to recommend a text editor: Vi..... sual studio code](./vscode.png)
 
 # Settings and keybindings
 
