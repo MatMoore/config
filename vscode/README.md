@@ -28,5 +28,6 @@ https://vscode.readthedocs.io/en/latest/getstarted/settings/
 - Prettier
 
 ### Ruby workflow tools
-- rails-rspec-file-toggle
+- rails-rspec-file-toggle: toggle between class files and specs with `ctrl-alt-R`
+- Rails Snippets
 
